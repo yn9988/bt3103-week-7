@@ -1,6 +1,5 @@
 <template>
     <div>
-        <p> testing </p>
         <ul>
             <li v-for="item in items" v-bind:key="item.name">
                 <h2 id="itemName">{{item.name}}</h2>
